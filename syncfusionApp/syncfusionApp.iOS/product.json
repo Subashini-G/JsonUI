@@ -1,0 +1,59 @@
+﻿{
+    "title": "Product",
+    "type": "root",
+    "sections": [
+        {
+            "padding": 20,
+            "header": "Your order page",
+            "height": 30,
+            "width": 50,
+            "elements": [
+                {
+                    "id": "question2",
+                    "type": "boolean",
+                    "caption": "Do you have prime membership?",
+                    "value": "false"
+                },
+                {
+                    "id": "question1",
+                    "type": "entry",
+                    "placeholder": "Enter user id"
+                },
+                {
+                    "id": "question3",
+                    "type": "date",
+                    "caption": "Expected delivery",
+                    "value": "00:00"
+                },
+                {
+                    "id": "question4",
+                    "type": "root",
+                    "title": "Pick your areas",
+                    "sections": [
+                        {
+                            "header": "Nested view!",
+                            "elements": [
+                                {
+                                    "type": "boolean",
+                                    "caption": "Just a boolean",
+                                    "id": "the-boolean",
+                                    "value": false
+                                },
+                                {
+                                    "type": "string",
+                                    "caption": "Welcome to the nested controller"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "question5",
+                    "type": "button",
+                    "caption": "Submit",
+                    "value": "true"
+                }
+            ]
+        }
+    ]
+}
